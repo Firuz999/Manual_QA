@@ -1,0 +1,25 @@
+<Games>
+
+  <Lara Croft id = "1">
+    <Year>1996<Year/>
+	<Genre>Action<Genre/>
+  <Lara Croft/>
+   
+  <Diablo id = "2">
+    <Year>1996<Year/>
+	<Genre>Action RPG, Slasher<Genre/>
+  <Diablo/>
+  
+  <Fifa95 id = "3">
+    <Year>1996<Year/>
+	<Genre>Sport, Simulation<Genre/>
+  <Fifa95/>
+  
+  <Doom id = "4">
+     <Year>1993<Year/>
+	<Genre>Action, Horror<Genre/>
+  <Doom/>
+  
+  <Sim Mars/>
+
+<Games/>
