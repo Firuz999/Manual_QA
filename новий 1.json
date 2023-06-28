@@ -1,0 +1,24 @@
+{
+"Clients"[
+ {
+  "firstname": "Valentina",
+  "lastname": "Grigorova",
+  "phoneNumber": "+380661552623"
+  },
+  {
+   "firstname": "Grigory",
+   "lastname": "Skovoroda",
+   "phoneNumber": "+380995554142"
+   },
+   {
+    "firstname": "Salat",
+	"lastname": "Cezar",
+	"phoneNumber": "+380991515191"
+	},
+	{
+	 "firstname": "Pavlo",
+	 "lastname": "Zurayko",
+	 "phoneNumber": "+380612221416
+	 }
+	  ]
+	   }
