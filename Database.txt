@@ -1,0 +1,51 @@
+create table db1.Учні (
+StudentID int not null auto_increment primary key,
+firstname varchar(25) not null,
+lastname varchar (25) not null,
+phone int(20) unique,
+age int,
+UnID int,
+Fid int,
+TeacherID int,
+GroupID int,
+foreign key(GroupID) references групи(id),
+foreign key(UnID) references Університети(UnID),
+foreign key(Fid) references Факультети(Fid),
+foreign key(TeacherID) references Викладачі(TeacherID)
+);
+
+create table db1.Групи (
+id int not null auto_increment primary key,
+NameOfGroup varchar(20) not null,
+TeacherID int,
+foreign key(TeacherID) references Викладачі(TeacherID),
+Fid int,
+foreign key(Fid) references Факультети(Fid),
+UnID int
+);
+
+use db1;
+
+SELECT * FROM Університети;
+
+SELECT firstname, lastname FROM учні;
+
+SELECT * FROM Викладачі WHERE firstname = "Петро";
+
+SELECT * FROM групи where nameofgroup = "п2";
+
+SELECT * FROM групи where nameofgroup < 10;
+
+SELECT * FROM Університети where nameofuniversity like "%У%"
+
+use db1;
+
+select count(age) from викладачі;
+
+select min(age) from учні;
+
+select max(age) from викладачі;
+
+select avg (age) from учні;
+
+select * from учні order by firstname desc;
